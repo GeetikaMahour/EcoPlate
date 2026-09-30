@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.EcoPlate" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/eco_primary</item>
+        <item name="colorOnPrimary">@color/eco_on_primary</item>
+        <item name="colorPrimaryContainer">@color/eco_primary_soft</item>
+        <item name="colorOnPrimaryContainer">@color/eco_primary</item>
+        <item name="colorSecondary">@color/eco_fresh</item>
+        <item name="colorSurface">@color/eco_surface</item>
+        <item name="colorOnSurface">@color/eco_ink</item>
+        <item name="colorOutline">@color/eco_line</item>
+        <item name="android:colorBackground">@color/eco_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Shown while the app starts, then swaps to Theme.EcoPlate. -->
+    <style name="Theme.EcoPlate.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/eco_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_leaf</item>
+        <item name="postSplashScreenTheme">@style/Theme.EcoPlate</item>
+    </style>
+
+</resources>

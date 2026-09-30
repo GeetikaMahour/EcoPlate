@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="eco_bg">#F2F5F0</color>
+    <color name="eco_surface">#FFFFFF</color>
+    <color name="eco_ink">#14261F</color>
+    <color name="eco_muted">#66766D</color>
+    <color name="eco_primary">#16423C</color>
+    <color name="eco_on_primary">#FFFFFF</color>
+    <color name="eco_primary_soft">#DCE8E1</color>
+    <color name="eco_line">#DDE5DE</color>
+    <color name="eco_track">#E6ECE7</color>
+    <color name="eco_fresh">#3F8F5A</color>
+    <color name="eco_soon">#D9931B</color>
+    <color name="eco_urgent">#D2432D</color>
+</resources>
